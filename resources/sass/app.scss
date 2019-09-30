@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+//HEADER
+header{
+  padding: 20px;
+  text-align: center;
+
+}
+
+.container{
+
+  width: 100%;
+  height: 100%;
+
+  .box{
+
+    width: 150px;
+    height: 100px;
+
+    margin: 10px auto;
+    padding: 20px;
+
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .box-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+
+footer{
+  padding: 10px;
+  text-align: center;
+}
+
+
+// HELPER class
+.bg_orange{
+  background-color: orange;
+}
+.bg_purple{
+  background-color: purple;
+}
+.bg_coral{
+  background-color: coral;
+}
