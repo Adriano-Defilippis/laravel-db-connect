@@ -13,3 +13,9 @@ ROUTES to VIEW RESULTS:
 FOLDER PROJECT:
 
 public/
+
+DB:
+hotel_bool.sql
+
+User: adriano
+Password: root
